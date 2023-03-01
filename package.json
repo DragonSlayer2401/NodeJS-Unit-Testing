@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_unit_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "NodeJS",
+    "Testing"
+  ],
+  "author": "Jacob Smith",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3",
+    "nodemon": "^2.0.20"
+  }
+}
